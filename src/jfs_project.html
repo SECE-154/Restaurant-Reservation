@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>Restaurant Reservation System</title>
+  <style>
+      body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:rgb(239, 136, 198);
+}
+
+h1{
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:rgb(191, 19, 162);;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(191, 19, 162);
+}
+
+  </style>
+</head>
+<body>
+  
+  <marquee><h1>Restaurant Reservation System</h1></marquee>
+    <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name"><br>
+
+  <label for="date">Date:</label>
+  <input type="date" id="date"><br>
+
+  <label for="time">Time:</label>
+  <input type="time" id="time"><br>
+
+  <label for="tables">No of Tables:</label>
+  <input type="tables" id="tables"><br>
+
+  <button onclick="reserveTable()">Reserve Table</button>
+
+  <script>
+    function reserveTable() {
+      const name = document.getElementById('name').value;
+      const date = document.getElementById('date').value;
+      const time = document.getElementById('time').value;
+      const tables = document.getElementById('tables').value;
+
+      // TODO: Add code to handle reservation and display confirmation
+
+      alert(`Table reserved for ${name} on ${date} at ${time} no of tables reserved is ${tables}.`);
+    }
+  </script>
+</body>
+</html>

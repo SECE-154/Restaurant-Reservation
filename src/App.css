@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('https://dionysoshotelpaphos.com/wp-content/uploads/Restaurant-Menu-Theme-Backgrounds.jpeg'); /* Replace with the path to your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; 
+  margin: 0;
+  padding: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 100px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: burlywood;
+}
